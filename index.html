@@ -9,7 +9,7 @@
     <body>
         <h1>Processing project by Alessandro Caredda</h1>
         <script type="text/processing">
- void setup ()
+void setup ()
 {
  size (400,400);
  background (150, 125, 200);
@@ -28,7 +28,7 @@ circle(315, 305, 195);
   {
     if (frameCount % 10 == 0) {
       fill (frameCount * 3 % 250, frameCount * 5 % 250, 
-      frameCount * 7 % 150);
+      frameCount * 7 % 250);
  pushMatrix ();
  translate(200,200);
  rotate(radians (frameCount * 2 % 360));
