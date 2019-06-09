@@ -13,23 +13,20 @@
 void setup ()
 {
  size (400,400);
- background (150, 125, 250);
+ background (50, 175, 250);
  smooth ();
  noStroke ();
-
- 
  translate (45,45);
  fill (255,0,0, 100);
- stroke (0);
+ noStroke ();
  scale (0.5);
 circle(315, 305, 195);
-}
-  
+}  
  void draw ()
   {
     if (frameCount % 10 == 0) {
-      fill (frameCount * 3 % 250, frameCount * 5 % 170, 
-      frameCount * 7 % 150);
+      fill (frameCount * 5 % 250, frameCount * 2 % 170, 
+      frameCount * 3 % 250);
  pushMatrix ();
  translate(200,200);
  rotate(radians (frameCount * 2 % 360));
@@ -37,8 +34,7 @@ circle(315, 305, 195);
  
 triangle(30, 75, 58, 20, 86, 75);
  popMatrix ();
- 
-}
+ }
   }
         </script>
         <canvas></canvas>
