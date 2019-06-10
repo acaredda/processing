@@ -15,12 +15,15 @@ void setup ()
  background (50, 175, 250);
  smooth ();
  noStroke ();
+
+ 
  translate (45,45);
  fill (255,0,0, 100);
  noStroke ();
  scale (0.5);
 circle(315, 305, 195);
-}  
+}
+  
  void draw ()
   {
     if (frameCount % 10 == 0) {
@@ -33,7 +36,8 @@ circle(315, 305, 195);
  
 triangle(30, 75, 58, 20, 86, 75);
  popMatrix ();
- }
+ 
+}
   }
         </script>
         <canvas></canvas>
