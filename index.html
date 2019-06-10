@@ -11,7 +11,7 @@
         <script type="text/processing">
 void setup ()
 {
- size (200,200);
+ size (400,400);
  background (50, 175, 250);
  smooth ();
  noStroke ();
@@ -26,7 +26,6 @@ circle(315, 305, 195);
   
  void draw ()
   {
-    if (frameCount % 10 == 0) {
       fill (frameCount * 5 % 250, frameCount * 2 % 170, 
       frameCount * 3 % 250);
  pushMatrix ();
@@ -38,7 +37,7 @@ triangle(30, 75, 58, 20, 86, 75);
  popMatrix ();
  
 }
-  }
+
         </script>
         <canvas></canvas>
     </body>
